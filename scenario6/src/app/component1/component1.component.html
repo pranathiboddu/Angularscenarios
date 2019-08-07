@@ -1,0 +1,4 @@
+<p>component1 works!</p>
+<!--redirecting to component2 and component3 to get and send data-->
+<app-component2 [parentData]="message"></app-component2>
+<app-component3 (childEvent)="message=$event"></app-component3>
